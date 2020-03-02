@@ -10,6 +10,8 @@ In this repository, we implemented a Statistical NLP model to predict news agenc
 * Creating Model for the Second Task
 * Creating Model for the Third Task
 
+## Libraries and Constants
+
 
 ```python
 from __future__ import unicode_literals
@@ -46,7 +48,7 @@ not_valid_labels = None
 news_agencies = None
 ```
 
-# Importing Data
+## Importing Data
 
 
 ```python
@@ -70,7 +72,7 @@ print('Number of Datapoints: {}'.format(len(fars)))
     Number of Datapoints: 15000
     
 
-# Preprocessing
+## Preprocessing
 
 Finding Valid Labels:
 
@@ -176,7 +178,7 @@ x_train, y_train, x_test, y_test = train_test_split(proc_documents , proc_labels
 x_train_th, y_train_th, x_test_th, y_test_th = train_test_split(documents , org_labels, train_size = 0.80, random_state=85)
 ```
 
-# Creating Model for the First Task
+## Creating Model for the First Task
 
 Training:
 
@@ -1101,7 +1103,7 @@ nb.evaluate(x_test, y_test, label_set=label_set)
       f1_measure = 2*percision*recall/(percision+recall)
     
 
-# Creating Model for the Second Task
+## Creating Model for the Second Task
 
 
 ```python
@@ -1151,7 +1153,7 @@ nb.evaluate(documents, t, label_set, eval_type='multiple')
     Total Score: -88182
     
 
-# Creating Model for the Third Task
+## Creating Model for the Third Task
 
 Training:
 
