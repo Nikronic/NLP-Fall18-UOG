@@ -1,4 +1,8 @@
-[![DOI](https://zenodo.org/badge/163314176.svg)](https://zenodo.org/badge/latestdoi/163314176)
+## Citation
+Erfan Miahi, & Nikan Doosti. (2020). Nikronic/NLP-Fall18-UOG: Citation (Citation). Zenodo. https://doi.org/10.5281/zenodo.3838434
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3838434.svg)](https://doi.org/10.5281/zenodo.3838434)
+
 # Final NLP project (University of Guilan)
 In this repository, we implemented a Statistical NLP model to predict news agency, news tags, etc as final project of NLP course in university of Guilan.
 
